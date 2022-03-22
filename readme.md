@@ -1,9 +1,9 @@
-Comandos Git
-============
+# Comandos Git
 
 ## Versão: 2022-03-21
 
-Criar um novo repositório na linha de comando (terminal)
+## Criar um novo repositório na linha de comando (terminal)
+
 `echo "# Git-Comandos" >> README.md`
 `git init`
 `git add README.md`
@@ -13,12 +13,13 @@ Criar um novo repositório na linha de comando (terminal)
 `git push -u origin main`
 ___
 
-Empurrar um repositório existente pela linha de comando (terminal)
+## Empurrar um repositório existente pela linha de comando (terminal)
+
 `git remote add origin https://github.com/amimenezes/Git-Comandos.git`
 `git branch -M main`
 `git push -u origin main`
 
-_Uma lista dos comandos Git mais usados_
+### Uma lista dos comandos Git mais usados
 
 --
 
@@ -41,6 +42,7 @@ Se tudo estiver correto no código, aí aprova o Merge Request para a main remot
 | `git pull origin main` | Mantém atualizada a branch local (version-1) |
 
 ### Criar nova Branch
+
 | Comando | Descrição |
 | ------- | --------- |
 | `git checkou main` | Salta para a main local |
