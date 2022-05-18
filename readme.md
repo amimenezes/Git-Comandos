@@ -45,7 +45,7 @@ Se tudo estiver correto no código, aí aprova o Merge Request para a main remot
 
 | Comando | Descrição |
 | ------- | --------- |
-| `git checkou main` | Salta para a main local |
+| `git checkout main` | Salta para a main local |
 | `git pull origin main` | Busca a atualização da remota para a local |
 | `git checkout -b nomeDaBranch` | Cria uma nova branch |
 
