@@ -4,13 +4,13 @@
 
 ## Criar um novo repositório na linha de comando (terminal)
 
-`echo "# Git-Comandos" >> README.md`
-`git init`
-`git add README.md`
-`git commit -m "first commit"`
-`git branch -M main`
-`git remote add origin https://github.com/amimenezes/Git-Comandos.git`
-`git push -u origin main`
+| `echo "# Git-Comandos" >> README.md` |
+| `git init` |
+| `git add README.md` |
+| `git commit -m "first commit"` |
+| `git branch -M main` |
+| `git remote add origin https://github.com/amimenezes/Git-Comandos.git` |
+| `git push -u origin main` |
 ___
 
 ## Empurrar um repositório existente pela linha de comando (terminal)
@@ -105,3 +105,15 @@ Se tudo estiver correto no código, aí aprova o Merge Request para a main remot
 | `git log` | Ver modificações |
 | `git log --summary` | Ver modificações (detalhadas) |
 | `git diff [branch original] [branch alvo]` | Visualizar alterações antes de mesclar |
+
+The default branch has been renamed!
+main is now named master
+
+If you have a local clone, you can update it by running the following commands.
+
+| Comando | Descrição |
+| ------- | --------- |
+| `git branch -m main master` |
+| `git fetch origin` |
+| `git branch -u origin/master master` |
+| `git remote set-head origin -a` |
