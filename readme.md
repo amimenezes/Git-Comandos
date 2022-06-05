@@ -4,13 +4,15 @@
 
 ## Criar um novo repositório na linha de comando (terminal)
 
-| `echo "# Git-Comandos" >> README.md` |
-| `git init` |
-| `git add README.md` |
-| `git commit -m "first commit"` |
-| `git branch -M main` |
-| `git remote add origin https://github.com/amimenezes/Git-Comandos.git` |
-| `git push -u origin main` |
+| Comando | Descrição |
+| ------- | --------- |
+| `echo "# Git-Comandos" >> README.md` | ... |
+| `git init` | ... |
+| `git add README.md` | ... |
+| `git commit -m "first commit"` | ... |
+| `git branch -M main` | ... |
+| `git remote add origin https://github.com/amimenezes/Git-Comandos.git` | ... |
+| `git push -u origin main` | ... |
 ___
 
 ## Empurrar um repositório existente pela linha de comando (terminal)
