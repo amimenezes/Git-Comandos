@@ -2,6 +2,17 @@
 
 ## Versão: 2022-03-21
 
+## Melhores Práticas ni Github
+
+| Comando | Descrição |
+| ------- | --------- |
+| WIP | Trabalho em Progresso |
+| FEAT | Funcionalidade Nova |
+| FIX | Correção |
+| REFACTOR | Refatoração de uma funcionalidade que estava funcionando, mas estava meio feia, mudança de estrutura, etc.|
+| BUG | Resolução de bug |
+| TEST | Para algum teste que venha a implementar |
+
 ## Criar um novo repositório na linha de comando (terminal)
 
 | Comando | Descrição |
