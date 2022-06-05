@@ -2,7 +2,7 @@
 
 ## Versão: 2022-03-21
 
-## Melhores Práticas ni Github
+## Melhores Práticas no Github
 
 | Comando | Descrição |
 | ------- | --------- |
