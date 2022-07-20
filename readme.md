@@ -136,6 +136,7 @@ Crédito: Matheus Battisti - Hora de Codar
 https://www.youtube.com/watch?v=Zwv9qRyVeU4
 
 | Comando | Descrição |
+| ------- | --------- |
 | `git init` | cria uma pasta escondida com o nome ".git", sem as aspas, e as configurações do git para o projeto |
 | `git status` | Verifica os arquivos. |
 | `git commit -a -m "Meu texto descritivo."` | Adiciona todo tipo de arquivo a esse commit; Escreve a mensagem com a descrição. |
@@ -149,11 +150,21 @@ https://www.youtube.com/watch?v=Zwv9qRyVeU4
 
 O ideal é ter um branch para cada tarefa e cada dev trabalhar no seu branch. Depois uni-los em um forma coordenada e ordenada.
 
+| Comando | Descrição |
+| ------- | --------- |
 | `git checkout -b "teste"` | `-b` Cria a branch "teste" e, `checkout` muda da branch "main" para a branch "teste". |
+
 Também tem que criar a branch no remoto (github.com/amimenezes/Git-Comandos).
+
+| Comando | Descrição |
+| ------- | --------- |
 | `git push --set-upstream origin teste` | Afirma que o branch principal é o "main" |
 | `git commit -a -m "Nova tarefa."` | Adiciona todo tipo de arquivo a esse commit; Escreve a mensagem com a descrição. |
+
 Depois de criado o branch no remoto, basta dar um `git push` para empurrar para o remoto os arquivos
+
+| Comando | Descrição |
+| ------- | --------- |
 | `git checkout main` | Pula para a branch main local. |
 | `git branch` | Mostra a branch que está e todas as branchs criadas para o repositório. |
 | `git merge teste` | Quando estiver na branch `main` e iserir esse comando, o `merge` irá unir o que tem na branch `main` com a branch `teste`. |
@@ -163,8 +174,14 @@ Depois de criado o branch no remoto, basta dar um `git push` para empurrar para 
 | `git branch` | Verifica em qual branch está. |
 | `git commit -a -m "Outra Demanda"` | ... |
 | `git push` | ... |
-Obs: quem clona sofre menos. ;)
+
+### Dica: quem clona sofre menos. ;)
+
+| Comando | Descrição |
+| ------- | --------- |
 | `git checkout teste` | Pula para a branch main local. |
 | `git clearn -f` | Remove todos os arquivos adicionados com o `git add .`. |
 | `git checkout .\index.html` | Última alteração não comitada será excluída do arquivo informado. |
 | `git log` | Possui o tracker das mudanças realizadas, do mais recente para o mais antigo. |
+
+### Dica de extensão para o VSCode: [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced&WT.mc_id=blog-devto-ludossan)
