@@ -467,25 +467,114 @@ main is now named master</p>
 </tbody>
 </table>
 <p>O ideal é ter um branch para cada tarefa e cada dev trabalhar no seu branch. Depois uni-los em um forma coordenada e ordenada.</p>
-<p>| <code>git checkout -b &quot;teste&quot;</code> | <code>-b</code> Cria a branch &quot;teste&quot; e, <code>checkout</code> muda da branch &quot;main&quot; para a branch &quot;teste&quot;. |
-Também tem que criar a branch no remoto (<a href="http://github.com/amimenezes/Git-Comandos">github.com/amimenezes/Git-Comandos</a>).
-| <code>git push --set-upstream origin teste</code> | Afirma que o branch principal é o &quot;main&quot; |
-| <code>git commit -a -m &quot;Nova tarefa.&quot;</code> | Adiciona todo tipo de arquivo a esse commit; Escreve a mensagem com a descrição. |
-Depois de criado o branch no remoto, basta dar um <code>git push</code> para empurrar para o remoto os arquivos
-| <code>git checkout main</code> | Pula para a branch main local. |
-| <code>git branch</code> | Mostra a branch que está e todas as branchs criadas para o repositório. |
-| <code>git merge teste</code> | Quando estiver na branch <code>main</code> e iserir esse comando, o <code>merge</code> irá unir o que tem na branch <code>main</code> com a branch <code>teste</code>. |
-| <code>git push</code> | Pareia os códigos. |
-| <code>git pull</code> | Pega todas as atualizações do remoto e põe no local. |
-| <code>git clone https://github.com/amimenezes/Git-Comandos.git nomeDoPastaLocal</code> | Clona o repositório remoto e clona o projeto para uma pasta chamada <code>nomeDoPastaLocal</code>. |
-| <code>git branch</code> | Verifica em qual branch está. |
-| <code>git commit -a -m &quot;Outra Demanda&quot;</code> | ... |
-| <code>git push</code> | ... |
-Obs: quem clona sofre menos. ;)
-| <code>git checkout teste</code> | Pula para a branch main local. |
-| <code>git clearn -f</code> | Remove todos os arquivos adicionados com o <code>git add .</code>. |
-| <code>git checkout .\index.html</code> | Última alteração não comitada será excluída do arquivo informado. |
-| <code>git log</code> | Possui o tracker das mudanças realizadas, do mais recente para o mais antigo. |</p>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git checkout -b &quot;teste&quot;</code></td>
+<td><code>-b</code> Cria a branch &quot;teste&quot; e, <code>checkout</code> muda da branch &quot;main&quot; para a branch &quot;teste&quot;.</td>
+</tr>
+</tbody>
+</table>
+<p>Também tem que criar a branch no remoto (<a href="http://github.com/amimenezes/Git-Comandos">github.com/amimenezes/Git-Comandos</a>).</p>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git push --set-upstream origin teste</code></td>
+<td>Afirma que o branch principal é o &quot;main&quot;</td>
+</tr>
+<tr>
+<td><code>git commit -a -m &quot;Nova tarefa.&quot;</code></td>
+<td>Adiciona todo tipo de arquivo a esse commit; Escreve a mensagem com a descrição.</td>
+</tr>
+</tbody>
+</table>
+<p>Depois de criado o branch no remoto, basta dar um <code>git push</code> para empurrar para o remoto os arquivos</p>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git checkout main</code></td>
+<td>Pula para a branch main local.</td>
+</tr>
+<tr>
+<td><code>git branch</code></td>
+<td>Mostra a branch que está e todas as branchs criadas para o repositório.</td>
+</tr>
+<tr>
+<td><code>git merge teste</code></td>
+<td>Quando estiver na branch <code>main</code> e iserir esse comando, o <code>merge</code> irá unir o que tem na branch <code>main</code> com a branch <code>teste</code>.</td>
+</tr>
+<tr>
+<td><code>git push</code></td>
+<td>Pareia os códigos.</td>
+</tr>
+<tr>
+<td><code>git pull</code></td>
+<td>Pega todas as atualizações do remoto e põe no local.</td>
+</tr>
+<tr>
+<td><code>git clone https://github.com/amimenezes/Git-Comandos.git nomeDoPastaLocal</code></td>
+<td>Clona o repositório remoto e clona o projeto para uma pasta chamada <code>nomeDoPastaLocal</code>.</td>
+</tr>
+<tr>
+<td><code>git branch</code></td>
+<td>Verifica em qual branch está.</td>
+</tr>
+<tr>
+<td><code>git commit -a -m &quot;Outra Demanda&quot;</code></td>
+<td>...</td>
+</tr>
+<tr>
+<td><code>git push</code></td>
+<td>...</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dica-quem-clona-sofre-menos-">Dica: quem clona sofre menos. ;)</h3>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git checkout teste</code></td>
+<td>Pula para a branch main local.</td>
+</tr>
+<tr>
+<td><code>git clearn -f</code></td>
+<td>Remove todos os arquivos adicionados com o <code>git add .</code>.</td>
+</tr>
+<tr>
+<td><code>git checkout .\index.html</code></td>
+<td>Última alteração não comitada será excluída do arquivo informado.</td>
+</tr>
+<tr>
+<td><code>git log</code></td>
+<td>Possui o tracker das mudanças realizadas, do mais recente para o mais antigo.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dica-de-extensão-para-o-vscode-markdown-preview-enhanced">Dica de extensão para o VSCode: <a href="https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced&amp;WT.mc_id=blog-devto-ludossan">Markdown Preview Enhanced</a></h3>
 
         
         
