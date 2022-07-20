@@ -1,6 +1,6 @@
 # Comandos Git
 
-## Versão: 2022-03-21
+## Versão: 2022-07-19
 
 ## Melhores Práticas no Github
 
@@ -130,3 +130,41 @@ If you have a local clone, you can update it by running the following commands.
 | `git fetch origin` |
 | `git branch -u origin/master master` |
 | `git remote set-head origin -a` |
+
+## Comandos
+Crédito: Matheus Battisti - Hora de Codar
+https://www.youtube.com/watch?v=Zwv9qRyVeU4
+
+| Comando | Descrição |
+| `git init` | cria uma pasta escondida com o nome ".git", sem as aspas, e as configurações do git para o projeto |
+| `git status` | Verifica os arquivos. |
+| `git commit -a -m "Meu texto descritivo."` | Adiciona todo tipo de arquivo a esse commit; Escreve a mensagem com a descrição. |
+| `-a` | Adiciona todo tipo de arquivo a esse commit. |
+| `-m` | Adiciona uma mensagem a esse commit. |
+| Ir no github.com/seuGithub | Para criar um repositório vazio. |
+| Retornar para o terminal acessar a pasta do seu projeto | Para adicionar um repositório remoto. |
+| `git remote add origin https://github.com/amimenezes/Git-Comandos.git` | Faz a conexão entre a pasta do PC e a pasta do Github. |
+| `git branch -M main` | Afirma que o branch principal é o "main" |
+| `git push -u origin main` | Envia o código atual da branch local para a branch do repositório remoto. |
+
+O ideal é ter um branch para cada tarefa e cada dev trabalhar no seu branch. Depois uni-los em um forma coordenada e ordenada.
+
+| `git checkout -b "teste"` | `-b` Cria a branch "teste" e, `checkout` muda da branch "main" para a branch "teste". |
+Também tem que criar a branch no remoto (github.com/amimenezes/Git-Comandos).
+| `git push --set-upstream origin teste` | Afirma que o branch principal é o "main" |
+| `git commit -a -m "Nova tarefa."` | Adiciona todo tipo de arquivo a esse commit; Escreve a mensagem com a descrição. |
+Depois de criado o branch no remoto, basta dar um `git push` para empurrar para o remoto os arquivos
+| `git checkout main` | Pula para a branch main local. |
+| `git branch` | Mostra a branch que está e todas as branchs criadas para o repositório. |
+| `git merge teste` | Quando estiver na branch `main` e iserir esse comando, o `merge` irá unir o que tem na branch `main` com a branch `teste`. |
+| `git push` | Pareia os códigos. |
+| `git pull` | Pega todas as atualizações do remoto e põe no local. |
+| `git clone https://github.com/amimenezes/Git-Comandos.git nomeDoPastaLocal` | Clona o repositório remoto e clona o projeto para uma pasta chamada `nomeDoPastaLocal`. |
+| `git branch` | Verifica em qual branch está. |
+| `git commit -a -m "Outra Demanda"` | ... |
+| `git push` | ... |
+Obs: quem clona sofre menos. ;)
+| `git checkout teste` | Pula para a branch main local. |
+| `git clearn -f` | Remove todos os arquivos adicionados com o `git add .`. |
+| `git checkout .\index.html` | Última alteração não comitada será excluída do arquivo informado. |
+| `git log` | Possui o tracker das mudanças realizadas, do mais recente para o mais antigo. |
