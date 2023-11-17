@@ -185,3 +185,6 @@ Depois de criado o branch no remoto, basta dar um `git push` para empurrar para 
 | `git log` | Possui o tracker das mudanças realizadas, do mais recente para o mais antigo. |
 
 ### Dica de extensão para o VSCode: [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced&WT.mc_id=blog-devto-ludossan)
+
+
+`git config --global --list --show-origin`
