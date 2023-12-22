@@ -188,3 +188,15 @@ Depois de criado o branch no remoto, basta dar um `git push` para empurrar para 
 
 
 `git config --global --list --show-origin`
+
+`git config --global --list --show-origin`
+
+`git stash`
+
+`git pull origin main`
+
+`git stash list`
+
+`git stash apply`
+
+`git status`
